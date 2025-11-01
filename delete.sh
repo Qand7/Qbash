@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Removing Script permissions
+# Removing Script permissions
 sudo chmod -x /usr/bin/qpurge
 sudo chmod -x /usr/bin/qtest
 sudo chmod -x /usr/bin/qfind

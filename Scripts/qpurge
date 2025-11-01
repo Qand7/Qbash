@@ -17,6 +17,7 @@ Help()
    echo 
    echo "I wrote this script as a hate letter to residual files. Take Care!"
    echo 
+   echo
    echo "Syntax: scriptTemplate [-g|-h|-v]"
    echo
    echo "Options:"

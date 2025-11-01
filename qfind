@@ -1,0 +1,69 @@
+#!/bin/bash
+
+############################################################
+# Help                                                     #
+############################################################
+Help()
+{
+   # Display Help
+   echo
+   echo "Just a shortened find command to search for" 
+   echo "any files on the drive which contain a certain String"
+   echo
+   echo "Syntax: scriptTemplate [-g|-h|-v]"
+   echo
+   echo "Options:"
+   echo "    -h     Print this Help."
+   echo "    -v     Print software version and exit."
+   echo "    -g     Print the GPL license notification."
+   echo
+}
+
+Version()
+{
+   # Display Software Version
+   echo 
+   echo -e "Version 1.0, \e[35mqandy inc.\e[0m (not a real company , though it sounds nice)"
+   echo
+}
+
+License()
+{
+   cat ~/qpurge-qtest/LICENSE
+   echo
+   echo
+   echo
+   echo "https://github.com/Qand7/qpurge-qtest/blob/main/LICENSE"
+   echo
+   echo 
+   echo
+   echo "(It's just the GPL 3.0 license)"
+}
+
+############################################################
+############################################################
+# Main program                                             #
+############################################################
+############################################################
+############################################################
+# Find any files with the argument String in their name.   #
+############################################################
+while getopts ":h :v :g" option; do
+   case $option in
+      h) # display Help
+         Help
+         exit;;
+      v) # display Version
+	 Version
+	 exit;;
+      g) # display License
+	 License
+	 exit;;
+     \?) # Invalid option
+         echo "Error: Invalid option"
+         exit;;
+   esac
+done
+
+sudo find / -iname "*$1*"
+

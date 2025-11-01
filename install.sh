@@ -18,3 +18,5 @@ echo "-------------------------------------------"
 echo "Finished, Scripts are ready."
 echo
 echo "Type \"<Scriptname> -h\" for help."
+echo "Scripts can be found in ~/Qbash/Scripts/"
+echo "Or with \"ls ~/Qbash/Scripts/\""

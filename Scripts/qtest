@@ -10,7 +10,6 @@ Help()
    echo "A utility by Qandy to create a directory in ~/test/."
    echo "This directory is then filled with four files, all named \"testfile.\"" 
    echo "These files are of differing filetypes and cases to test case-sensitivity."
-   echo
    echo 
    echo 
    echo "Syntax: scriptTemplate [-g|-h|-v]"
@@ -32,11 +31,11 @@ Version()
 
 License()
 {
-   cat ~/qpurge-qtest/LICENSE
+   cat ~/Qbash/LICENSE
    echo
    echo
    echo
-   echo "https://github.com/Qand7/qpurge-qtest/blob/main/LICENSE"
+   echo "https://github.com/Qand7/Qbash/blob/main/LICENSE"
    echo
    echo 
    echo

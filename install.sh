@@ -5,7 +5,7 @@ GOALDIR="/usr/bin"
 
 # Creating Scripts
 sudo cp Qbash/Scripts/qpurge "$GOALDIR"/qpurge
-sudo cp Qabsh/Scripts/qtest "$GOALDIR"/qtest
+sudo cp Qbash/Scripts/qtest "$GOALDIR"/qtest
 sudo cp Qbash/Scripts/qfind "$GOALDIR"/qfind
 
 # Giving Scripts execution permissions

@@ -32,7 +32,7 @@ Type ```qfind $String``` and it will seacrch your entire disk starting at the ro
 #### Commands
 ```shell
 git clone https://github.com/Qand7/Qbash
-chmod +x ~/Qbash/install.sh
+sudo chmod +x ~/Qbash/install.sh
 sudo ~/Qbash/install.sh
 ```
 
@@ -40,6 +40,6 @@ sudo ~/Qbash/install.sh
 #### Commands
 ```shell
 sudo chmod +x ~/Qbash/delete.sh
-~/Qbash/delete.sh
+sudo ~/Qbash/delete.sh
 ```
 Simply Copy + Paste into your shell.

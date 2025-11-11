@@ -25,7 +25,7 @@ Just type ```qpurge $String``` and it will find all files that include this stri
 Should work on every distro and you just need to type ```qtest``` into the terminal for the ~/test/ directory to appear with 4 files, all named ```testfile.``` in differing cases and filetypes.
 
 ## qfind
-Type ```qfind $String``` and it will seacrch your entire disk starting at the root directory for any files which include the given String in their name.
+Type ```qfind $String``` and it will search your entire disk starting at the root directory for any files which include the given String in their name.
 
 # Installation
 ### Building
